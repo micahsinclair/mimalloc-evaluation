@@ -1,0 +1,27 @@
+native_mimalloc.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_1:
+  dacapobach:
+    lusearch: 15
+native_mimalloc.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_12:
+  dacapobach:
+    lusearch: .inf
+native_mimalloc.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_18:
+  dacapobach:
+    lusearch: 38
+native_mimalloc.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_24:
+  dacapobach:
+    lusearch: 49
+native_mimalloc.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_30:
+  dacapobach:
+    lusearch: 75
+native_mimalloc.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_36:
+  dacapobach:
+    lusearch: 81
+native_mimalloc.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_42:
+  dacapobach:
+    lusearch: 84
+native_mimalloc.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_48:
+  dacapobach:
+    lusearch: 87
+native_mimalloc.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_6:
+  dacapobach:
+    lusearch: 20

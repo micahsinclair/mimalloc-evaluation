@@ -1,0 +1,23 @@
+native_mimalloc.ms.s.c2.tph.mmtk_gc-SemiSpace.probes_cp.probes.threads_1 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M o 9M x 13M x 15M o 14M o minheap 14
+native_mimalloc.ms.s.c2.tph.mmtk_gc-SemiSpace.probes_cp.probes.threads_6 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M o 9M x 13M x 15M o 14M .x minheap 15
+native_mimalloc.ms.s.c2.tph.mmtk_gc-SemiSpace.probes_cp.probes.threads_12 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M o 9M x 13M x 15M x 16M o minheap 16
+native_mimalloc.ms.s.c2.tph.mmtk_gc-SemiSpace.probes_cp.probes.threads_18 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M o 9M x 13M x 15M x 16M x minheap 17
+native_mimalloc.ms.s.c2.tph.mmtk_gc-SemiSpace.probes_cp.probes.threads_24 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M ..x 25M o 21M o 19M o 18M o minheap 18
+native_mimalloc.ms.s.c2.tph.mmtk_gc-SemiSpace.probes_cp.probes.threads_30 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M x 25M o 21M .o 19M x 20M .o minheap 20
+native_mimalloc.ms.s.c2.tph.mmtk_gc-SemiSpace.probes_cp.probes.threads_36 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M x 25M o 21M o 19M t 20M o minheap 20
+native_mimalloc.ms.s.c2.tph.mmtk_gc-SemiSpace.probes_cp.probes.threads_42 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M x 25M o 21M o 19M x 20M x minheap 21
+native_mimalloc.ms.s.c2.tph.mmtk_gc-SemiSpace.probes_cp.probes.threads_48 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M x 25M o 21M x 23M o 22M x minheap 23
+native_mimalloc.ms.s.c2.tph.mmtk_gc-SemiSpace.probes_cp.probes.threads_1 obtained the most number of smallest minheap sizes: 1
+Minheap configuration to be copied to runbms config files
+dacapobach:
+  lusearch: 14
+

@@ -1,0 +1,23 @@
+library_mimalloc_v2.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_1 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M x 25M o 21M o 19M o 18M o minheap 18
+library_mimalloc_v2.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_6 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M x 25M o 21M x 23M x 24M x minheap 25
+library_mimalloc_v2.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_12 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M x 49M x 57M o 53M o 51M o 50M o minheap 50
+library_mimalloc_v2.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_18 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M x 97M o 81M o 73M o 69M o 67M o 66M o minheap 66
+library_mimalloc_v2.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_24 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M x 49M x 57M x 61M o 59M x 60M x minheap 61
+library_mimalloc_v2.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_30 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M x 97M o 81M o 73M o 69M x 71M x 72M o minheap 72
+library_mimalloc_v2.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_36 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M x 97M o 81M o 73M x 77M x 79M o 78M x minheap 79
+library_mimalloc_v2.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_42 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M x 97M o 81M x 89M x 93M x 95M o 94M x minheap 95
+library_mimalloc_v2.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_48 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M x 97M x 113M x 121M o 117M o 115M o 114M x minheap 115
+library_mimalloc_v2.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_1 obtained the most number of smallest minheap sizes: 1
+Minheap configuration to be copied to runbms config files
+dacapobach:
+  lusearch: 18
+

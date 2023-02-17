@@ -1,0 +1,36 @@
+library_mimalloc_v1_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_1 
+	 dacapo-6e411f33-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M x 49M x 57M x 61M o 59M o 58M x minheap 59
+library_mimalloc_v1_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_6 
+	 dacapo-6e411f33-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M x 49M x 57M x 61M x 63M x 64M o minheap 64
+library_mimalloc_v1_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_12 
+	 dacapo-6e411f33-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M x 49M x 57M x 61M x 63M x 64M o minheap 64
+library_mimalloc_v1_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_18 
+	 dacapo-6e411f33-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M x 97M o 81M o 73M o 69M o 67M o 66M x minheap 67
+library_mimalloc_v1_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_24 
+	 dacapo-6e411f33-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M x 49M x 57M x 61M x 63M x 64M x minheap 65
+library_mimalloc_v1_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_30 
+	 dacapo-6e411f33-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M x 97M o 81M o 73M o 69M x 71M x 72M x minheap 73
+library_mimalloc_v1_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_36 
+	 dacapo-6e411f33-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M x 97M o 81M o 73M x 77M o 75M x 76M x minheap 77
+library_mimalloc_v1_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_42 
+	 dacapo-6e411f33-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M x 97M o 81M o 73M x 77M x 79M x 80M x minheap 81
+library_mimalloc_v1_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_48 
+	 dacapo-6e411f33-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M x 97M o 81M x 89M o 85M x 87M x 88M x minheap 89
+library_mimalloc_v1_64K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_1 
+	 dacapo-6e411f33-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M x 97M x 113M o 105M x 109M o 107M x 108M o minheap 108
+library_mimalloc_v1_64K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_6 
+	 dacapo-6e411f33-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M x 97M x 113M x 121M x 125M x 127M x 128M o minheap 128
+library_mimalloc_v1_64K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_12 
+	 dacapo-6e411f33-lusearch 2049M o 1025M o 513M o 257M o 129M x 193M o 161M o 145M o 137M o 133M o 131M o 130M o minheap 130
+library_mimalloc_v1_64K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_18 
+	 dacapo-6e411f33-lusearch 2049M o 1025M o 513M o 257M o 129M x 193M x 225M o 209M o 201M o 197M x 199M o 198M o minheap 198
+library_mimalloc_v1_64K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_24 
+	 dacapo-6e411f33-lusearch 2049M o 1025M o 513M o 257M o 129M x 193M x 225M o 209M x 217M x 221M x 223M o 222M o minheap 222
+library_mimalloc_v1_64K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_30 
+	 dacapo-6e411f33-lusearch 2049M o 1025M o 513M o 257M x 385M o 321M x 353M x 369M o 361M o 357M o 355M o 354M o minheap 354
+library_mimalloc_v1_64K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_36 
+	 dacapo-6e411f33-lusearch 2049M o 1025M o 513M o 257M x 385M x 449M x 481M o 465M o 457M o 453M o 451M o 450M o minheap 450
+library_mimalloc_v1_64K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_42 
+	 dacapo-6e411f33-lusearch 2049M o 1025M o 513M o 257M x 385M x 449M x 481M x 497M x 505M x 509M x 511M x 512M o minheap 512
+library_mimalloc_v1_64K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_48 
+	 dacapo-6e411f33-lusearch 2049M o 1025M o 513M x 769M o 641M x 705M o 673M o 657M x 665M o 661M o 659M x 660M o minheap 660

@@ -1,0 +1,59 @@
+native_mimalloc.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_1 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M o 9M x 13M x 15M o 14M x minheap 15
+native_mimalloc.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_6 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M t 25M o 21M .o 19M t 20M ..o minheap 20
+native_mimalloc.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_12 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M x 25M ...x 29M .... minheap inf
+native_mimalloc.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_18 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M x 49M o 41M o 37M x 39M ..o 38M o minheap 38
+native_mimalloc.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_24 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M x 49M o 41M x 45M x 47M x 48M x minheap 49
+native_mimalloc.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_30 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M x 97M o 81M o 73M x 77M o 75M o 74M x minheap 75
+native_mimalloc.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_36 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M x 97M o 81M o 73M x 77M x 79M x 80M x minheap 81
+native_mimalloc.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_42 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M x 97M o 81M x 89M o 85M o 83M x 84M o minheap 84
+native_mimalloc.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_48 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M x 97M o 81M .x 89M o 85M x 87M o 86M x minheap 87
+library_mimalloc.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_1 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M t 25M x 29M x 31M o 30M x minheap 31
+library_mimalloc.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_6 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M t 49M o 41M o 37M x 39M t 40M x minheap 41
+library_mimalloc.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_12 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M x 49M t 57M t 61M o 59M o 58M t minheap 59
+library_mimalloc.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_18 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M x 97M o 81M o 73M t 77M o 75M o 74M o minheap 74
+library_mimalloc.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_24 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M x 97M o 81M x 89M t 93M o 91M o 90M t minheap 91
+library_mimalloc.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_30 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M x 97M t 113M o 105M x 109M t 111M t 112M t minheap 113
+library_mimalloc.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_36 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M t 193M o 161M o 145M o 137M o 133M o 131M o 130M o minheap 130
+library_mimalloc.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_42 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M x 193M o 161M o 145M t 153M o 149M o 147M o 146M t minheap 147
+library_mimalloc.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_48 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M x 193M o 161M t 177M o 169M o 165M t 167M o 166M o minheap 166
+native_mimalloc.ms.s.c2.tph.mmtk_gc-MarkCompact.probes_cp.probes.threads_1 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M o 9M t 13M o 11M o 10M o minheap 10
+native_mimalloc.ms.s.c2.tph.mmtk_gc-MarkCompact.probes_cp.probes.threads_6 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M o 9M t 13M o 11M o 10M o minheap 10
+native_mimalloc.ms.s.c2.tph.mmtk_gc-MarkCompact.probes_cp.probes.threads_12 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M o 9M t 13M o 11M o 10M t minheap 11
+native_mimalloc.ms.s.c2.tph.mmtk_gc-MarkCompact.probes_cp.probes.threads_18 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M o 9M t 13M o 11M t 12M o minheap 12
+native_mimalloc.ms.s.c2.tph.mmtk_gc-MarkCompact.probes_cp.probes.threads_24 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M o 9M t 13M o 11M t 12M t minheap 13
+native_mimalloc.ms.s.c2.tph.mmtk_gc-MarkCompact.probes_cp.probes.threads_30 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M o 9M t 13M t 15M o 14M o minheap 14
+native_mimalloc.ms.s.c2.tph.mmtk_gc-MarkCompact.probes_cp.probes.threads_36 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M o 9M t 13M t 15M o 14M t minheap 15
+native_mimalloc.ms.s.c2.tph.mmtk_gc-MarkCompact.probes_cp.probes.threads_42 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M o 9M x 13M t 15M o 14M t minheap 15
+native_mimalloc.ms.s.c2.tph.mmtk_gc-MarkCompact.probes_cp.probes.threads_48 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M o 9M x 13M t 15M t 16M o minheap 16
+native_mimalloc.ms.s.c2.tph.mmtk_gc-MarkCompact.probes_cp.probes.threads_1 obtained the most number of smallest minheap sizes: 1
+Minheap configuration to be copied to runbms config files
+dacapobach:
+  lusearch: 10
+

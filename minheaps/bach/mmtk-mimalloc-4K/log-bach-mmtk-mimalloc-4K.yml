@@ -1,0 +1,23 @@
+native_mimalloc_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_1 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M o 9M o 5M t 7M x 8M x minheap 9
+native_mimalloc_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_6 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M o 9M .x 13M o 11M o 10M o minheap 10
+native_mimalloc_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_12 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M o 9M x 13M o 11M o 10M .o minheap 10
+native_mimalloc_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_18 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M o 9M x 13M o 11M t 12M o minheap 12
+native_mimalloc_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_24 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M o 9M x 13M o 11M .x 12M .o minheap 12
+native_mimalloc_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_30 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M o 9M x 13M x 15M o 14M .o minheap 14
+native_mimalloc_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_36 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M o 9M x 13M x 15M o 14M o minheap 14
+native_mimalloc_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_42 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M o 9M x 13M x 15M o 14M x minheap 15
+native_mimalloc_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_48 
+	 dacapobach-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M o 17M o 9M x 13M x 15M x 16M o minheap 16
+native_mimalloc_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_1 obtained the most number of smallest minheap sizes: 1
+Minheap configuration to be copied to runbms config files
+dacapobach:
+  lusearch: 9
+

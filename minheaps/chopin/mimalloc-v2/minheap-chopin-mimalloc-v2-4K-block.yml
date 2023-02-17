@@ -1,0 +1,27 @@
+library_mimalloc_v2_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_1:
+  dacapo-6e411f33:
+    lusearch: 64
+library_mimalloc_v2_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_12:
+  dacapo-6e411f33:
+    lusearch: 69
+library_mimalloc_v2_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_18:
+  dacapo-6e411f33:
+    lusearch: 82
+library_mimalloc_v2_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_24:
+  dacapo-6e411f33:
+    lusearch: 87
+library_mimalloc_v2_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_30:
+  dacapo-6e411f33:
+    lusearch: 95
+library_mimalloc_v2_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_36:
+  dacapo-6e411f33:
+    lusearch: 105
+library_mimalloc_v2_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_42:
+  dacapo-6e411f33:
+    lusearch: 112
+library_mimalloc_v2_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_48:
+  dacapo-6e411f33:
+    lusearch: 120
+library_mimalloc_v2_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_6:
+  dacapo-6e411f33:
+    lusearch: 74

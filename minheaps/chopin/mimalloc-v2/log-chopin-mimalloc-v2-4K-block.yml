@@ -1,0 +1,23 @@
+library_mimalloc_v2_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_1 
+	 dacapo-6e411f33-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M o 33M x 49M x 57M x 61M x 63M x 64M o minheap 64
+library_mimalloc_v2_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_6 
+	 dacapo-6e411f33-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M x 97M o 81M o 73M x 77M o 75M o 74M o minheap 74
+library_mimalloc_v2_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_12 
+	 dacapo-6e411f33-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M x 97M o 81M o 73M o 69M o 67M x 68M x minheap 69
+library_mimalloc_v2_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_18 
+	 dacapo-6e411f33-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M x 97M o 81M x 89M o 85M o 83M o 82M o minheap 82
+library_mimalloc_v2_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_24 
+	 dacapo-6e411f33-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M x 97M o 81M x 89M o 85M x 87M o 86M x minheap 87
+library_mimalloc_v2_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_30 
+	 dacapo-6e411f33-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M x 97M o 81M x 89M x 93M x 95M o 94M x minheap 95
+library_mimalloc_v2_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_36 
+	 dacapo-6e411f33-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M x 97M x 113M o 105M o 101M x 103M x 104M x minheap 105
+library_mimalloc_v2_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_42 
+	 dacapo-6e411f33-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M x 97M x 113M o 105M x 109M x 111M x 112M o minheap 112
+library_mimalloc_v2_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_48 
+	 dacapo-6e411f33-lusearch 2049M o 1025M o 513M o 257M o 129M o 65M x 97M x 113M x 121M o 117M x 119M x 120M o minheap 120
+library_mimalloc_v2_4K.ms.s.c2.tph.mmtk_gc-MarkSweep.probes_cp.probes.threads_1 obtained the most number of smallest minheap sizes: 1
+Minheap configuration to be copied to runbms config files
+dacapo-6e411f33:
+  lusearch: 64
+
