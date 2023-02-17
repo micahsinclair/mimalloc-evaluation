@@ -1,0 +1,17 @@
+CONFIG: !!python/object/apply:pathlib.PosixPath
+- lusearch_performance_bach.yml
+LOG_DIR: !!python/object/apply:pathlib.PosixPath
+- mimalloc_performance_elk
+N: 8
+dry_run: false
+id_prefix: null
+invocations: null
+minheap_multiplier: null
+n: []
+resume: null
+skip_oom: null
+skip_timeout: null
+slice: null
+verbose: false
+which: runbms
+workdir: null

@@ -1,0 +1,96 @@
+includes:
+  - "$RUNNING_NG_PACKAGE_DATA/base/runbms.yml"
+
+benchmarks:
+  dacapobach:
+    - lusearch
+
+overrides:
+  "suites.dacapobach.timing_iteration": 5
+  "suites.dacapobach.callback": "probe.DacapoBachCallback"
+  "suites.dacapobach.timeout": 600
+  invocations: 20
+  "suites.dacapobach.minheap": mimalloc
+  "suites.dacapobach.minheap_values.mimalloc":
+    lusearch: 12
+
+runtimes:
+  native_mimalloc_4K:
+    type: OpenJDK
+    release: 11
+    home: "/home/micahs/runtimes/mmtk_mimalloc_4K/linux-x86_64-normal-server-release/jdk"
+  native_mimalloc_64K:
+    type: OpenJDK
+    release: 11
+    home: "/home/micahs/runtimes/mmtk_mimalloc/linux-x86_64-normal-server-release/jdk"
+  library_mimalloc_v1_4K_accounting:
+    type: OpenJDK
+    release: 11
+    home: "/home/micahs/runtimes/library_mimalloc_4K/linux-x86_64-normal-server-release/jdk"
+  library_mimalloc_v2_4K_accounting:
+    type: OpenJDK
+    release: 11
+    home: "/home/micahs/runtimes/mimalloc_v2_4K/linux-x86_64-normal-server-release/jdk"
+  jemalloc:
+    type: OpenJDK
+    release: 11
+    home: "/home/micahs/runtimes/jemalloc_malloc_2/linux-x86_64-normal-server-release/jdk"
+  libc:
+    type: OpenJDK
+    release: 11
+    home: "/home/micahs/runtimes/library_malloc_2/linux-x86_64-normal-server-release/jdk"
+
+modifiers:
+  probes_cp:
+    type: JVMClasspath
+    val: "/home/micahs/probes /home/micahs/probes/probes.jar"
+  probes:
+    type: JVMArg
+    val: "-Djava.library.path=/home/micahs/probes -Dprobes=RustMMTk"
+  threads_1:
+    type: ProgramArg
+    val: -t 1
+  threads_6:
+    type: ProgramArg
+    val: -t 6
+  threads_12:
+    type: ProgramArg
+    val: -t 12
+  threads_18:
+    type: ProgramArg
+    val: -t 18
+  threads_24:
+    type: ProgramArg
+    val: -t 24
+  threads_30:
+    type: ProgramArg
+    val: -t 30
+  threads_36:
+    type: ProgramArg
+    val: -t 36
+  threads_42:
+    type: ProgramArg
+    val: -t 42
+  threads_48:
+    type: ProgramArg
+    val: -t 48
+
+configs:
+  - "native_mimalloc_64K|ms|s|c2|tph|mmtk_gc-MarkSweep|probes_cp|probes|threads_1"
+  - "native_mimalloc_64K|ms|s|c2|tph|mmtk_gc-MarkSweep|probes_cp|probes|threads_12"
+  - "native_mimalloc_64K|ms|s|c2|tph|mmtk_gc-MarkSweep|probes_cp|probes|threads_24"
+  - "native_mimalloc_4K|ms|s|c2|tph|mmtk_gc-MarkSweep|probes_cp|probes|threads_1"
+  - "native_mimalloc_4K|ms|s|c2|tph|mmtk_gc-MarkSweep|probes_cp|probes|threads_12"
+  - "native_mimalloc_4K|ms|s|c2|tph|mmtk_gc-MarkSweep|probes_cp|probes|threads_24"
+  - "library_mimalloc_v1_4K_accounting|ms|s|c2|tph|mmtk_gc-MarkSweep|probes_cp|probes|threads_1"
+  - "library_mimalloc_v1_4K_accounting|ms|s|c2|tph|mmtk_gc-MarkSweep|probes_cp|probes|threads_12"
+  - "library_mimalloc_v1_4K_accounting|ms|s|c2|tph|mmtk_gc-MarkSweep|probes_cp|probes|threads_24"
+  - "library_mimalloc_v2_4K_accounting|ms|s|c2|tph|mmtk_gc-MarkSweep|probes_cp|probes|threads_1"
+  - "library_mimalloc_v2_4K_accounting|ms|s|c2|tph|mmtk_gc-MarkSweep|probes_cp|probes|threads_12"
+  - "library_mimalloc_v2_4K_accounting|ms|s|c2|tph|mmtk_gc-MarkSweep|probes_cp|probes|threads_24"
+  - "jemalloc|ms|s|c2|tph|mmtk_gc-MarkSweep|probes_cp|probes|threads_1"
+  - "jemalloc|ms|s|c2|tph|mmtk_gc-MarkSweep|probes_cp|probes|threads_12"
+  - "jemalloc|ms|s|c2|tph|mmtk_gc-MarkSweep|probes_cp|probes|threads_24"
+  - "libc|ms|s|c2|tph|mmtk_gc-MarkSweep|probes_cp|probes|threads_1"
+  - "libc|ms|s|c2|tph|mmtk_gc-MarkSweep|probes_cp|probes|threads_12"
+  - "libc|ms|s|c2|tph|mmtk_gc-MarkSweep|probes_cp|probes|threads_24"

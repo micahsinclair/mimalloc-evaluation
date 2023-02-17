@@ -1,0 +1,109 @@
+includes:
+  - "$RUNNING_NG_PACKAGE_DATA/base/runbms.yml"
+
+suites:
+  dacapochopin-6e411f33:
+    type: DaCapo
+    release: evaluation
+    path: /usr/share/benchmarks/dacapo/dacapo-evaluation-git-6e411f33.jar
+    callback: "probe.DacapoChopinCallback"
+    timing_iteration: 5
+    timeout: 600
+    minheap: mmtk-openjdk-11-MarkCompact
+    minheap_values:
+      mmtk-openjdk-11-MarkCompact:
+        avrora: 8
+        batik: 426
+        biojava: 197
+        cassandra: 117
+        eclipse: 439
+        fop: 24
+        graphchi: 187
+        h2: 1122
+        h2o: 893
+        jme: 236
+        jython: 48
+        kafka: 233
+        luindex: 25
+        lusearch: 36
+        pmd: 291
+        spring: 110
+        sunflow: 37
+        tradebeans: .inf
+        tradesoap: .inf
+        tomcat: 55
+        xalan: 22
+        zxing: 427
+      mmtk-openjdk-11-G1:
+        avrora: 7
+        batik: 1068
+        biojava: 189
+        cassandra: 119
+        eclipse: 427
+        fop: 73
+        graphchi: 258
+        h2: 908
+        h2o: 175
+        jme: 235
+        jython: 309
+        kafka: 219
+        luindex: 39
+        lusearch: 29
+        pmd: 262
+        spring: 78
+        sunflow: 33
+        tomcat: 47
+        tradebeans: .inf
+        tradesoap: .inf
+        xalan: 19
+        zxing: 95
+
+overrides:
+  invocations: 20
+
+benchmarks:
+  dacapochopin-6e411f33:
+    - avrora 
+    - batik 
+    - biojava 
+    - cassandra 
+    - eclipse 
+    - fop 
+    - graphchi 
+    - h2 
+    - h2o 
+    - jme 
+    - jython 
+    - kafka 
+    - luindex 
+    - lusearch 
+    - pmd 
+    - spring 
+    - sunflow 
+    - tomcat 
+    # - tradebeans 
+    # - tradesoap 
+    - xalan 
+    - zxing
+
+runtimes:
+  mmtk_mimalloc_64K:
+    type: OpenJDK
+    release: 11
+    home: "/home/micahs/runtimes/mmtk_mimalloc/linux-x86_64-normal-server-release/jdk"
+  mmtk_mimalloc_4K:
+    type: OpenJDK
+    release: 11
+    home: "/home/micahs/runtimes/mmtk_mimalloc_4K/linux-x86_64-normal-server-release/jdk"
+
+modifiers:
+  probes_cp:
+    type: JVMClasspath
+    val: "/home/micahs/probes /home/micahs/probes/probes.jar"
+  probes:
+    type: JVMArg
+    val: "-Djava.library.path=/home/micahs/probes -Dprobes=RustMMTk"
+
+configs:
+  - "mmtk_mimalloc_64K|ms|s|c2|tph|mmtk_gc-MarkSweep|probes_cp|probes"
+  - "mmtk_mimalloc_4K|ms|s|c2|tph|mmtk_gc-MarkSweep|probes_cp|probes"
